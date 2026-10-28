@@ -1,0 +1,7 @@
+id,asset,amount_raw,direction,kind,status,source,observed_at
+deposit,31337:native,10000000000000000000,in,transfer,success,synthetic:deposit,2026-01-01T00:00:00Z
+lend,31337:native,4000000000000000000,out,transfer,success,synthetic:lend,2026-01-01T00:00:00Z
+redeem,31337:native,4200000000000000000,in,transfer,success,synthetic:redeem,2026-01-01T00:00:00Z
+gas-ok,31337:native,210000000000000,out,gas,success,synthetic:gas-ok,2026-01-01T00:00:00Z
+failed-send,31337:native,5000000000000000000,out,transfer,failed,synthetic:failed-send,2026-01-01T00:00:00Z
+gas-failed,31337:native,100000000000000,out,gas,failed,synthetic:gas-failed,2026-01-01T00:00:00Z

@@ -1,0 +1,56 @@
+{
+  "owner": "0x1111111111111111111111111111111111111111",
+  "chain_id": 31337,
+  "source": "synthetic:receipt-and-trace",
+  "observed_at": "2026-01-01T00:00:00Z",
+  "additional_fee_raw": "0",
+  "transaction": {
+    "hash": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "from": "0x1111111111111111111111111111111111111111",
+    "to": "0x2222222222222222222222222222222222222222",
+    "value": "0x3782dace9d900000",
+    "gasPrice": "0x3b9aca00"
+  },
+  "receipt": {
+    "transactionHash": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "status": "0x1",
+    "gasUsed": "0x5208",
+    "effectiveGasPrice": "0x3b9aca00",
+    "logs": [
+      {
+        "logIndex": "0x0",
+        "address": "0x3333333333333333333333333333333333333333",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000002222222222222222222222222222222222222222",
+          "0x0000000000000000000000001111111111111111111111111111111111111111"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000000000000000003039"
+      }
+    ]
+  },
+  "traces": [
+    {
+      "type": "call",
+      "traceAddress": [],
+      "action": {
+        "from": "0x1111111111111111111111111111111111111111",
+        "to": "0x2222222222222222222222222222222222222222",
+        "callType": "call",
+        "value": "0x3782dace9d900000"
+      }
+    },
+    {
+      "type": "call",
+      "traceAddress": [
+        0
+      ],
+      "action": {
+        "from": "0x2222222222222222222222222222222222222222",
+        "to": "0x1111111111111111111111111111111111111111",
+        "callType": "call",
+        "value": "0x6f05b59d3b20000"
+      }
+    }
+  ]
+}

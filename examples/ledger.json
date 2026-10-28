@@ -1,0 +1,70 @@
+{
+  "opening": {
+    "31337:native": "0"
+  },
+  "observed": {
+    "31337:native": "10199690000000000000"
+  },
+  "events": [
+    {
+      "id": "deposit",
+      "asset": "31337:native",
+      "amount_raw": "10000000000000000000",
+      "direction": "in",
+      "kind": "transfer",
+      "status": "success",
+      "source": "synthetic:deposit",
+      "observed_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "lend",
+      "asset": "31337:native",
+      "amount_raw": "4000000000000000000",
+      "direction": "out",
+      "kind": "transfer",
+      "status": "success",
+      "source": "synthetic:lend",
+      "observed_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "redeem",
+      "asset": "31337:native",
+      "amount_raw": "4200000000000000000",
+      "direction": "in",
+      "kind": "transfer",
+      "status": "success",
+      "source": "synthetic:redeem",
+      "observed_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "gas-ok",
+      "asset": "31337:native",
+      "amount_raw": "210000000000000",
+      "direction": "out",
+      "kind": "gas",
+      "status": "success",
+      "source": "synthetic:gas-ok",
+      "observed_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "failed-send",
+      "asset": "31337:native",
+      "amount_raw": "5000000000000000000",
+      "direction": "out",
+      "kind": "transfer",
+      "status": "failed",
+      "source": "synthetic:failed-send",
+      "observed_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "gas-failed",
+      "asset": "31337:native",
+      "amount_raw": "100000000000000",
+      "direction": "out",
+      "kind": "gas",
+      "status": "failed",
+      "source": "synthetic:gas-failed",
+      "observed_at": "2026-01-01T00:00:00Z"
+    }
+  ]
+}

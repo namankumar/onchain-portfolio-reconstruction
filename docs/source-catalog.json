@@ -1,0 +1,2328 @@
+{
+  "scripts": 258,
+  "lines": 17599,
+  "entries": [
+    {
+      "entry_id": "source-001",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 43,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-002",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 43,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-003",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 20,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-004",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 53,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-005",
+      "category": "Evidence-backed reporting",
+      "lines": 29,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-006",
+      "category": "Chain and protocol discovery",
+      "lines": 10,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-007",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 17,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-008",
+      "category": "Evidence-backed reporting",
+      "lines": 53,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-009",
+      "category": "Chain and protocol discovery",
+      "lines": 16,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-010",
+      "category": "Chain and protocol discovery",
+      "lines": 45,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-011",
+      "category": "Evidence-backed reporting",
+      "lines": 52,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-012",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 10,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-013",
+      "category": "Chain and protocol discovery",
+      "lines": 13,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-014",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 49,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-015",
+      "category": "Evidence-backed reporting",
+      "lines": 36,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-016",
+      "category": "Chain and protocol discovery",
+      "lines": 17,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-017",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 70,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-018",
+      "category": "Evidence-backed reporting",
+      "lines": 36,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-019",
+      "category": "Chain and protocol discovery",
+      "lines": 17,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-020",
+      "category": "Evidence-backed reporting",
+      "lines": 8,
+      "import_count": 0,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-021",
+      "category": "Evidence-backed reporting",
+      "lines": 102,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-022",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 61,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-023",
+      "category": "Transaction and export reconstruction",
+      "lines": 34,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-024",
+      "category": "Chain and protocol discovery",
+      "lines": 34,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-025",
+      "category": "Evidence-backed reporting",
+      "lines": 119,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-026",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 28,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-027",
+      "category": "Evidence-backed reporting",
+      "lines": 401,
+      "import_count": 6,
+      "has_machine_local_path": true,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-028",
+      "category": "Evidence-backed reporting",
+      "lines": 18,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-029",
+      "category": "Transaction and export reconstruction",
+      "lines": 60,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-030",
+      "category": "Evidence-backed reporting",
+      "lines": 71,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-031",
+      "category": "Transaction and export reconstruction",
+      "lines": 55,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-032",
+      "category": "Evidence-backed reporting",
+      "lines": 121,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-033",
+      "category": "Market history and valuation",
+      "lines": 648,
+      "import_count": 11,
+      "has_machine_local_path": true,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-034",
+      "category": "Evidence-backed reporting",
+      "lines": 538,
+      "import_count": 47,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-035",
+      "category": "Chain and protocol discovery",
+      "lines": 67,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-036",
+      "category": "Evidence-backed reporting",
+      "lines": 250,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-037",
+      "category": "Chain and protocol discovery",
+      "lines": 77,
+      "import_count": 8,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-038",
+      "category": "Chain and protocol discovery",
+      "lines": 332,
+      "import_count": 10,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-039",
+      "category": "Chain and protocol discovery",
+      "lines": 414,
+      "import_count": 12,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-040",
+      "category": "Chain and protocol discovery",
+      "lines": 93,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-041",
+      "category": "Chain and protocol discovery",
+      "lines": 43,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-042",
+      "category": "Chain and protocol discovery",
+      "lines": 80,
+      "import_count": 9,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-043",
+      "category": "Chain and protocol discovery",
+      "lines": 63,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-044",
+      "category": "Chain and protocol discovery",
+      "lines": 79,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-045",
+      "category": "Chain and protocol discovery",
+      "lines": 84,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-046",
+      "category": "Chain and protocol discovery",
+      "lines": 34,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-047",
+      "category": "Chain and protocol discovery",
+      "lines": 14,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-048",
+      "category": "Evidence-backed reporting",
+      "lines": 57,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-049",
+      "category": "Evidence-backed reporting",
+      "lines": 41,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-050",
+      "category": "Chain and protocol discovery",
+      "lines": 17,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-051",
+      "category": "Evidence-backed reporting",
+      "lines": 86,
+      "import_count": 8,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-052",
+      "category": "Evidence-backed reporting",
+      "lines": 97,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-053",
+      "category": "Evidence-backed reporting",
+      "lines": 75,
+      "import_count": 9,
+      "has_machine_local_path": true,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-054",
+      "category": "Chain and protocol discovery",
+      "lines": 87,
+      "import_count": 1,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-055",
+      "category": "Evidence-backed reporting",
+      "lines": 56,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-056",
+      "category": "Chain and protocol discovery",
+      "lines": 12,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-057",
+      "category": "Chain and protocol discovery",
+      "lines": 14,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-058",
+      "category": "Evidence-backed reporting",
+      "lines": 69,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-059",
+      "category": "Evidence-backed reporting",
+      "lines": 125,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-060",
+      "category": "Chain and protocol discovery",
+      "lines": 18,
+      "import_count": 1,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-061",
+      "category": "Evidence-backed reporting",
+      "lines": 15,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-062",
+      "category": "Chain and protocol discovery",
+      "lines": 7,
+      "import_count": 1,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-063",
+      "category": "Wallet address derivation (private workflow)",
+      "lines": 200,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-064",
+      "category": "Wallet address derivation (private workflow)",
+      "lines": 81,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-065",
+      "category": "Verification and regression checks",
+      "lines": 18,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-066",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 41,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-067",
+      "category": "Chain and protocol discovery",
+      "lines": 12,
+      "import_count": 1,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-068",
+      "category": "Chain and protocol discovery",
+      "lines": 13,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-069",
+      "category": "Evidence-backed reporting",
+      "lines": 163,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-070",
+      "category": "Evidence-backed reporting",
+      "lines": 86,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-071",
+      "category": "Evidence-backed reporting",
+      "lines": 108,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-072",
+      "category": "Chain and protocol discovery",
+      "lines": 72,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-073",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 129,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-074",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 44,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-075",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 145,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-076",
+      "category": "Evidence-backed reporting",
+      "lines": 188,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-077",
+      "category": "Chain and protocol discovery",
+      "lines": 50,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-078",
+      "category": "Chain and protocol discovery",
+      "lines": 9,
+      "import_count": 1,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-079",
+      "category": "Evidence-backed reporting",
+      "lines": 35,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-080",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 81,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-081",
+      "category": "Evidence-backed reporting",
+      "lines": 92,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-082",
+      "category": "Evidence-backed reporting",
+      "lines": 27,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-083",
+      "category": "Chain and protocol discovery",
+      "lines": 32,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-084",
+      "category": "Chain and protocol discovery",
+      "lines": 17,
+      "import_count": 1,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-085",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 14,
+      "import_count": 1,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-086",
+      "category": "Evidence-backed reporting",
+      "lines": 77,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-087",
+      "category": "Evidence-backed reporting",
+      "lines": 75,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-088",
+      "category": "Evidence-backed reporting",
+      "lines": 106,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-089",
+      "category": "Evidence-backed reporting",
+      "lines": 97,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-090",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 34,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-091",
+      "category": "Evidence-backed reporting",
+      "lines": 26,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-092",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 50,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-093",
+      "category": "Evidence-backed reporting",
+      "lines": 25,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-094",
+      "category": "Evidence-backed reporting",
+      "lines": 40,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-095",
+      "category": "Evidence-backed reporting",
+      "lines": 50,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-096",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 28,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-097",
+      "category": "Evidence-backed reporting",
+      "lines": 26,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-098",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 54,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-099",
+      "category": "Evidence-backed reporting",
+      "lines": 30,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-100",
+      "category": "Chain and protocol discovery",
+      "lines": 15,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-101",
+      "category": "Evidence-backed reporting",
+      "lines": 30,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-102",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 39,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-103",
+      "category": "Transaction and export reconstruction",
+      "lines": 11,
+      "import_count": 6,
+      "has_machine_local_path": true,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-104",
+      "category": "Chain and protocol discovery",
+      "lines": 8,
+      "import_count": 1,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-105",
+      "category": "Chain and protocol discovery",
+      "lines": 10,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-106",
+      "category": "Evidence-backed reporting",
+      "lines": 62,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-107",
+      "category": "Chain and protocol discovery",
+      "lines": 16,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-108",
+      "category": "Evidence-backed reporting",
+      "lines": 66,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-109",
+      "category": "Evidence-backed reporting",
+      "lines": 13,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-110",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 9,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-111",
+      "category": "Evidence-backed reporting",
+      "lines": 29,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-112",
+      "category": "Evidence-backed reporting",
+      "lines": 53,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-113",
+      "category": "Market history and valuation",
+      "lines": 41,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-114",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 51,
+      "import_count": 8,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-115",
+      "category": "Transaction and export reconstruction",
+      "lines": 34,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-116",
+      "category": "Chain and protocol discovery",
+      "lines": 28,
+      "import_count": 1,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-117",
+      "category": "Transaction and export reconstruction",
+      "lines": 20,
+      "import_count": 1,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-118",
+      "category": "Market history and valuation",
+      "lines": 28,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-119",
+      "category": "Chain and protocol discovery",
+      "lines": 17,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-120",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 48,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-121",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 33,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-122",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 32,
+      "import_count": 1,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-123",
+      "category": "Chain and protocol discovery",
+      "lines": 41,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-124",
+      "category": "Evidence-backed reporting",
+      "lines": 19,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-125",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 46,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-126",
+      "category": "Evidence-backed reporting",
+      "lines": 27,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-127",
+      "category": "Chain and protocol discovery",
+      "lines": 34,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-128",
+      "category": "Chain and protocol discovery",
+      "lines": 37,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-129",
+      "category": "Chain and protocol discovery",
+      "lines": 37,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-130",
+      "category": "Transaction and export reconstruction",
+      "lines": 27,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-131",
+      "category": "Transaction and export reconstruction",
+      "lines": 37,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-132",
+      "category": "Transaction and export reconstruction",
+      "lines": 37,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-133",
+      "category": "Transaction and export reconstruction",
+      "lines": 60,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-134",
+      "category": "Chain and protocol discovery",
+      "lines": 10,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-135",
+      "category": "Evidence-backed reporting",
+      "lines": 194,
+      "import_count": 13,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-136",
+      "category": "Chain and protocol discovery",
+      "lines": 42,
+      "import_count": 1,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-137",
+      "category": "Chain and protocol discovery",
+      "lines": 23,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-138",
+      "category": "Chain and protocol discovery",
+      "lines": 40,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-139",
+      "category": "Chain and protocol discovery",
+      "lines": 34,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-140",
+      "category": "Chain and protocol discovery",
+      "lines": 208,
+      "import_count": 10,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-141",
+      "category": "Chain and protocol discovery",
+      "lines": 93,
+      "import_count": 9,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-142",
+      "category": "Chain and protocol discovery",
+      "lines": 427,
+      "import_count": 15,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-143",
+      "category": "Evidence-backed reporting",
+      "lines": 49,
+      "import_count": 10,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-144",
+      "category": "Chain and protocol discovery",
+      "lines": 9,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-145",
+      "category": "Evidence-backed reporting",
+      "lines": 87,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-146",
+      "category": "Evidence-backed reporting",
+      "lines": 29,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-147",
+      "category": "Evidence-backed reporting",
+      "lines": 18,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-148",
+      "category": "Chain and protocol discovery",
+      "lines": 29,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-149",
+      "category": "Chain and protocol discovery",
+      "lines": 11,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-150",
+      "category": "Evidence-backed reporting",
+      "lines": 55,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-151",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 5,
+      "import_count": 1,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-152",
+      "category": "Evidence-backed reporting",
+      "lines": 87,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-153",
+      "category": "Chain and protocol discovery",
+      "lines": 11,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-154",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 67,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-155",
+      "category": "Chain and protocol discovery",
+      "lines": 29,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-156",
+      "category": "Transaction and export reconstruction",
+      "lines": 42,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-157",
+      "category": "Chain and protocol discovery",
+      "lines": 37,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-158",
+      "category": "Chain and protocol discovery",
+      "lines": 20,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-159",
+      "category": "Chain and protocol discovery",
+      "lines": 31,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-160",
+      "category": "Evidence-backed reporting",
+      "lines": 23,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-161",
+      "category": "Transaction and export reconstruction",
+      "lines": 9,
+      "import_count": 1,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-162",
+      "category": "Chain and protocol discovery",
+      "lines": 3,
+      "import_count": 1,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-163",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 13,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-164",
+      "category": "Evidence-backed reporting",
+      "lines": 40,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-165",
+      "category": "Evidence-backed reporting",
+      "lines": 44,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-166",
+      "category": "Evidence-backed reporting",
+      "lines": 90,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-167",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 40,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-168",
+      "category": "Evidence-backed reporting",
+      "lines": 25,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-169",
+      "category": "Evidence-backed reporting",
+      "lines": 26,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-170",
+      "category": "Evidence-backed reporting",
+      "lines": 38,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-171",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 40,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-172",
+      "category": "Chain and protocol discovery",
+      "lines": 14,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-173",
+      "category": "Chain and protocol discovery",
+      "lines": 20,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-174",
+      "category": "Chain and protocol discovery",
+      "lines": 24,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-175",
+      "category": "Evidence-backed reporting",
+      "lines": 26,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-176",
+      "category": "Chain and protocol discovery",
+      "lines": 14,
+      "import_count": 1,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-177",
+      "category": "Chain and protocol discovery",
+      "lines": 40,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-178",
+      "category": "Chain and protocol discovery",
+      "lines": 20,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-179",
+      "category": "Chain and protocol discovery",
+      "lines": 29,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-180",
+      "category": "Transaction and export reconstruction",
+      "lines": 9,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-181",
+      "category": "Verification and regression checks",
+      "lines": 92,
+      "import_count": 12,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-182",
+      "category": "Wallet address derivation (private workflow)",
+      "lines": 98,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-183",
+      "category": "Wallet address derivation (private workflow)",
+      "lines": 110,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-184",
+      "category": "Evidence-backed reporting",
+      "lines": 39,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-185",
+      "category": "Transaction and export reconstruction",
+      "lines": 80,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-186",
+      "category": "Transaction and export reconstruction",
+      "lines": 37,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-187",
+      "category": "Transaction and export reconstruction",
+      "lines": 146,
+      "import_count": 9,
+      "has_machine_local_path": true,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-188",
+      "category": "Transaction and export reconstruction",
+      "lines": 18,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-189",
+      "category": "Evidence-backed reporting",
+      "lines": 179,
+      "import_count": 9,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-190",
+      "category": "Chain and protocol discovery",
+      "lines": 14,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-191",
+      "category": "Chain and protocol discovery",
+      "lines": 14,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-192",
+      "category": "Evidence-backed reporting",
+      "lines": 16,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-193",
+      "category": "Market history and valuation",
+      "lines": 26,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-194",
+      "category": "Chain and protocol discovery",
+      "lines": 15,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-195",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 25,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-196",
+      "category": "Evidence-backed reporting",
+      "lines": 37,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-197",
+      "category": "Unsigned evaluation and route simulation",
+      "lines": 24,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-198",
+      "category": "Market history and valuation",
+      "lines": 25,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-199",
+      "category": "Verification and regression checks",
+      "lines": 122,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-200",
+      "category": "Verification and regression checks",
+      "lines": 47,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-201",
+      "category": "Verification and regression checks",
+      "lines": 53,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-202",
+      "category": "Verification and regression checks",
+      "lines": 142,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-203",
+      "category": "Verification and regression checks",
+      "lines": 13,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-204",
+      "category": "Verification and regression checks",
+      "lines": 92,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-205",
+      "category": "Verification and regression checks",
+      "lines": 74,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-206",
+      "category": "Verification and regression checks",
+      "lines": 97,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-207",
+      "category": "Verification and regression checks",
+      "lines": 76,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-208",
+      "category": "Verification and regression checks",
+      "lines": 925,
+      "import_count": 7,
+      "has_machine_local_path": true,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-209",
+      "category": "Verification and regression checks",
+      "lines": 101,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-210",
+      "category": "Verification and regression checks",
+      "lines": 837,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-211",
+      "category": "Verification and regression checks",
+      "lines": 122,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-212",
+      "category": "Verification and regression checks",
+      "lines": 54,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-213",
+      "category": "Verification and regression checks",
+      "lines": 29,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-214",
+      "category": "Verification and regression checks",
+      "lines": 113,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-215",
+      "category": "Verification and regression checks",
+      "lines": 31,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-216",
+      "category": "Verification and regression checks",
+      "lines": 32,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-217",
+      "category": "Verification and regression checks",
+      "lines": 253,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-218",
+      "category": "Verification and regression checks",
+      "lines": 117,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-219",
+      "category": "Verification and regression checks",
+      "lines": 118,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-220",
+      "category": "Verification and regression checks",
+      "lines": 38,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-221",
+      "category": "Verification and regression checks",
+      "lines": 126,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-222",
+      "category": "Verification and regression checks",
+      "lines": 81,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-223",
+      "category": "Verification and regression checks",
+      "lines": 179,
+      "import_count": 7,
+      "has_machine_local_path": true,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-224",
+      "category": "Verification and regression checks",
+      "lines": 30,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-225",
+      "category": "Verification and regression checks",
+      "lines": 44,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-226",
+      "category": "Verification and regression checks",
+      "lines": 32,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-227",
+      "category": "Verification and regression checks",
+      "lines": 41,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-228",
+      "category": "Verification and regression checks",
+      "lines": 36,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-229",
+      "category": "Verification and regression checks",
+      "lines": 99,
+      "import_count": 4,
+      "has_machine_local_path": true,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-230",
+      "category": "Verification and regression checks",
+      "lines": 60,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-231",
+      "category": "Verification and regression checks",
+      "lines": 92,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-232",
+      "category": "Verification and regression checks",
+      "lines": 93,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-233",
+      "category": "Verification and regression checks",
+      "lines": 45,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-234",
+      "category": "Verification and regression checks",
+      "lines": 46,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-235",
+      "category": "Verification and regression checks",
+      "lines": 46,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-236",
+      "category": "Verification and regression checks",
+      "lines": 22,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-237",
+      "category": "Verification and regression checks",
+      "lines": 51,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-238",
+      "category": "Verification and regression checks",
+      "lines": 36,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-239",
+      "category": "Verification and regression checks",
+      "lines": 89,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-240",
+      "category": "Verification and regression checks",
+      "lines": 37,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-241",
+      "category": "Verification and regression checks",
+      "lines": 38,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-242",
+      "category": "Verification and regression checks",
+      "lines": 96,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-243",
+      "category": "Verification and regression checks",
+      "lines": 49,
+      "import_count": 4,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-244",
+      "category": "Verification and regression checks",
+      "lines": 37,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-245",
+      "category": "Verification and regression checks",
+      "lines": 32,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-246",
+      "category": "Verification and regression checks",
+      "lines": 44,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-247",
+      "category": "Verification and regression checks",
+      "lines": 26,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-248",
+      "category": "Verification and regression checks",
+      "lines": 38,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-249",
+      "category": "Verification and regression checks",
+      "lines": 33,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-250",
+      "category": "Verification and regression checks",
+      "lines": 79,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-251",
+      "category": "Verification and regression checks",
+      "lines": 82,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-252",
+      "category": "Verification and regression checks",
+      "lines": 29,
+      "import_count": 5,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-253",
+      "category": "Verification and regression checks",
+      "lines": 17,
+      "import_count": 3,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-254",
+      "category": "Verification and regression checks",
+      "lines": 85,
+      "import_count": 7,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-255",
+      "category": "Chain and protocol discovery",
+      "lines": 14,
+      "import_count": 1,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-256",
+      "category": "Transaction and export reconstruction",
+      "lines": 13,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-257",
+      "category": "Transaction and export reconstruction",
+      "lines": 26,
+      "import_count": 2,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    },
+    {
+      "entry_id": "source-258",
+      "category": "Transaction and export reconstruction",
+      "lines": 18,
+      "import_count": 6,
+      "has_machine_local_path": false,
+      "portable_command": false,
+      "status": "Original investigation source; requires its inputs, configuration and dependency review"
+    }
+  ]
+}
