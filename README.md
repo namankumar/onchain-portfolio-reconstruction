@@ -44,6 +44,12 @@ The ledger example uses **fictional movements**. It returns `complete: true`, `r
 
 For your own data, follow [input schemas and examples](docs/running.md). Exit status **0** means the requested command succeeded; reconciliation specifically requires complete supplied inputs and a zero difference. Exit status **2** means invalid/missing input, incomplete reconciliation, a discrepancy, or an RPC failure. Inspect the JSON and stderr rather than interpreting any error as a zero balance.
 
+## Evaluation scorecard
+
+Run `python3 tools/verify_offline.py` and `python3 -m evals.compare --trials 3 --out output/comparison` from this directory. The [evaluation guide](evals/README.md) contains the architecture, task protocol, exact raw-unit graders and reproducible evidence. The [committed comparison](evals/results/comparison.md) reports **14/20 task-oracle successes for both existing revisions**, with three deterministic trials per case and six retained failures. Their accounting source is byte-identical; no gain or product fix is claimed.
+
+**Model comparison: not run. Operational recovery impact: not measured.** The model-led JSONL tool interface is ready, but this offline software score is not an LLM success rate. Original-source components remain a separate narrow extraction; no complete original-investigation claim is made.
+
 ## Engineering scope
 
 | Capability family | Engineering coverage | Portable package |
@@ -97,7 +103,7 @@ Replace all placeholders. This example was **not** run against a live provider d
 - No wallet connection, private keys, seed phrases, signing, transaction broadcast or account login in the portable package.
 - An observed balance is not proof of address control. A prior movement is not proof of a current balance. A successful preview is not execution or cash.
 - The private source remains outside this release. This package excludes real addresses, exports, screenshots, credentials and response caches. Its sample addresses and transactions are synthetic.
-- No license has been selected for redistribution yet. This local preparation does not publish the package or change ownership of third-party material.
+- No license has been selected for redistribution yet. Publication of reviewed source does not change ownership of third-party material.
 
 ## Standalone export
 
