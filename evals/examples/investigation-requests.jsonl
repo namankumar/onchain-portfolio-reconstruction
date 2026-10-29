@@ -1,0 +1,6 @@
+{"id": 1, "tool": "catalog", "args": {}}
+{"id": 2, "tool": "read_evidence", "args": {"source_id": "RCP-01:receipt"}}
+{"id": 3, "tool": "read_evidence", "args": {"source_id": "RCP-01:boundary"}}
+{"id": 4, "tool": "decode", "args": {"source_id": "RCP-01:receipt"}}
+{"id": 5, "tool": "reconcile", "args": {"source_ids": ["RCP-01:receipt"], "boundary_id": "RCP-01:boundary"}}
+{"id": 6, "tool": "finalize", "args": {"report": {"status": "complete", "ledger": {"31337:0x3333333333333333333333333333333333333333": "37", "31337:native": "1010"}, "gaps": [], "claims": [{"kind": "computed_balance", "asset": "31337:0x3333333333333333333333333333333333333333", "raw": "37", "sources": ["RCP-01:receipt", "RCP-01:boundary"]}, {"kind": "computed_balance", "asset": "31337:native", "raw": "1010", "sources": ["RCP-01:receipt", "RCP-01:boundary"]}], "scope": "supplied_fixture_only", "explanation": "Fixed software probe: decode every supplied bundle then reconcile. No model made investigation choices. Raw tool errors are retained in this episode."}}}
