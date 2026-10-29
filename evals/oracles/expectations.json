@@ -1,0 +1,474 @@
+{
+  "schema": 1,
+  "basis": "Hand-specified arithmetic and evidence requirements; not computed by the product",
+  "cases": {
+    "RCP-01": {
+      "status": "complete",
+      "ledger": {
+        "31337:native": "1010",
+        "31337:0x3333333333333333333333333333333333333333": "37"
+      },
+      "gaps": [],
+      "support": {
+        "31337:native": [
+          "RCP-01:receipt",
+          "RCP-01:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-01:receipt",
+          "RCP-01:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-01:receipt",
+        "RCP-01:boundary"
+      ]
+    },
+    "RCP-02": {
+      "status": "complete",
+      "ledger": {
+        "31337:native": "1910",
+        "31337:0x3333333333333333333333333333333333333333": "0"
+      },
+      "gaps": [],
+      "support": {
+        "31337:native": [
+          "RCP-02:receipt",
+          "RCP-02:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-02:receipt",
+          "RCP-02:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-02:receipt",
+        "RCP-02:boundary"
+      ]
+    },
+    "RCP-03": {
+      "status": "complete",
+      "ledger": {
+        "31337:native": "910",
+        "31337:0x3333333333333333333333333333333333333333": "37"
+      },
+      "gaps": [],
+      "support": {
+        "31337:native": [
+          "RCP-03:receipt",
+          "RCP-03:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-03:receipt",
+          "RCP-03:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-03:receipt",
+        "RCP-03:boundary"
+      ]
+    },
+    "RCP-04": {
+      "status": "unknown",
+      "ledger": {
+        "31337:native": null,
+        "31337:0x3333333333333333333333333333333333333333": null
+      },
+      "gaps": [
+        "duplicate_evidence"
+      ],
+      "support": {
+        "31337:native": [
+          "RCP-04:receipt",
+          "RCP-04:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-04:receipt",
+          "RCP-04:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-04:receipt",
+        "RCP-04:boundary"
+      ]
+    },
+    "RCP-05": {
+      "status": "unknown",
+      "ledger": {
+        "31337:native": null,
+        "31337:0x3333333333333333333333333333333333333333": null
+      },
+      "gaps": [
+        "missing_fee"
+      ],
+      "support": {
+        "31337:native": [
+          "RCP-05:receipt",
+          "RCP-05:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-05:receipt",
+          "RCP-05:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-05:receipt",
+        "RCP-05:boundary"
+      ]
+    },
+    "RCP-06": {
+      "status": "unknown",
+      "ledger": {
+        "31337:native": null,
+        "31337:0x3333333333333333333333333333333333333333": "37"
+      },
+      "gaps": [
+        "missing_traces"
+      ],
+      "support": {
+        "31337:native": [
+          "RCP-06:receipt",
+          "RCP-06:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-06:receipt",
+          "RCP-06:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-06:receipt",
+        "RCP-06:boundary"
+      ]
+    },
+    "RCP-07": {
+      "status": "unknown",
+      "ledger": {
+        "31337:native": null,
+        "31337:0x3333333333333333333333333333333333333333": null
+      },
+      "gaps": [
+        "wrong_chain"
+      ],
+      "support": {
+        "31337:native": [
+          "RCP-07:receipt",
+          "RCP-07:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-07:receipt",
+          "RCP-07:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-07:receipt",
+        "RCP-07:boundary"
+      ]
+    },
+    "RCP-08": {
+      "status": "unknown",
+      "ledger": {
+        "31337:native": null,
+        "31337:0x3333333333333333333333333333333333333333": null
+      },
+      "gaps": [
+        "contradictory_sources"
+      ],
+      "support": {
+        "31337:native": [
+          "RCP-08:receipt",
+          "RCP-08:boundary",
+          "RCP-08:contradictory"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-08:receipt",
+          "RCP-08:boundary",
+          "RCP-08:contradictory"
+        ]
+      },
+      "required_sources": [
+        "RCP-08:receipt",
+        "RCP-08:boundary",
+        "RCP-08:contradictory"
+      ]
+    },
+    "RCP-09": {
+      "status": "unknown",
+      "ledger": {
+        "31337:native": null,
+        "31337:0x3333333333333333333333333333333333333333": null
+      },
+      "gaps": [
+        "receipt_mismatch"
+      ],
+      "support": {
+        "31337:native": [
+          "RCP-09:receipt",
+          "RCP-09:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-09:receipt",
+          "RCP-09:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-09:receipt",
+        "RCP-09:boundary"
+      ]
+    },
+    "RCP-10": {
+      "status": "unknown",
+      "ledger": {
+        "31337:native": null,
+        "31337:0x3333333333333333333333333333333333333333": null
+      },
+      "gaps": [
+        "missing_receipt"
+      ],
+      "support": {
+        "31337:native": [
+          "RCP-10:receipt",
+          "RCP-10:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-10:receipt",
+          "RCP-10:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-10:receipt",
+        "RCP-10:boundary"
+      ]
+    },
+    "RCP-11": {
+      "status": "complete",
+      "ledger": {
+        "31337:native": "1010",
+        "31337:0x3333333333333333333333333333333333333333": "37"
+      },
+      "gaps": [],
+      "support": {
+        "31337:native": [
+          "RCP-11:receipt",
+          "RCP-11:boundary",
+          "RCP-11:duplicate"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-11:receipt",
+          "RCP-11:boundary",
+          "RCP-11:duplicate"
+        ]
+      },
+      "required_sources": [
+        "RCP-11:receipt",
+        "RCP-11:boundary",
+        "RCP-11:duplicate"
+      ]
+    },
+    "RCP-12": {
+      "status": "complete",
+      "ledger": {
+        "31337:native": "1010",
+        "31337:0x3333333333333333333333333333333333333333": "0"
+      },
+      "gaps": [],
+      "support": {
+        "31337:native": [
+          "RCP-12:receipt",
+          "RCP-12:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-12:receipt",
+          "RCP-12:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-12:receipt",
+        "RCP-12:boundary"
+      ]
+    },
+    "RCP-13": {
+      "status": "complete",
+      "ledger": {
+        "31337:native": "1010",
+        "31337:0x3333333333333333333333333333333333333333": "9007199254740993"
+      },
+      "gaps": [],
+      "support": {
+        "31337:native": [
+          "RCP-13:receipt",
+          "RCP-13:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-13:receipt",
+          "RCP-13:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-13:receipt",
+        "RCP-13:boundary"
+      ]
+    },
+    "RCP-14": {
+      "status": "unknown",
+      "ledger": {
+        "31337:native": "1010",
+        "31337:0x3333333333333333333333333333333333333333": "37"
+      },
+      "gaps": [
+        "missing_observation"
+      ],
+      "support": {
+        "31337:native": [
+          "RCP-14:receipt",
+          "RCP-14:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-14:receipt",
+          "RCP-14:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-14:receipt",
+        "RCP-14:boundary"
+      ]
+    },
+    "RCP-15": {
+      "status": "complete",
+      "ledger": {
+        "31337:native": "1010",
+        "31337:0x3333333333333333333333333333333333333333": "37"
+      },
+      "gaps": [],
+      "support": {
+        "31337:native": [
+          "RCP-15:receipt",
+          "RCP-15:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-15:receipt",
+          "RCP-15:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-15:receipt",
+        "RCP-15:boundary"
+      ]
+    },
+    "RCP-16": {
+      "status": "unknown",
+      "ledger": {
+        "31337:native": null,
+        "31337:0x3333333333333333333333333333333333333333": null
+      },
+      "gaps": [
+        "duplicate_evidence"
+      ],
+      "support": {
+        "31337:native": [
+          "RCP-16:receipt",
+          "RCP-16:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-16:receipt",
+          "RCP-16:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-16:receipt",
+        "RCP-16:boundary"
+      ]
+    },
+    "RCP-17": {
+      "status": "complete",
+      "ledger": {
+        "31337:native": "1910",
+        "31337:0x3333333333333333333333333333333333333333": "37"
+      },
+      "gaps": [],
+      "support": {
+        "31337:native": [
+          "RCP-17:receipt",
+          "RCP-17:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-17:receipt",
+          "RCP-17:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-17:receipt",
+        "RCP-17:boundary"
+      ]
+    },
+    "RCP-18": {
+      "status": "complete",
+      "ledger": {
+        "31337:native": "1010",
+        "31337:0x3333333333333333333333333333333333333333": "37"
+      },
+      "gaps": [],
+      "support": {
+        "31337:native": [
+          "RCP-18:receipt",
+          "RCP-18:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-18:receipt",
+          "RCP-18:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-18:receipt",
+        "RCP-18:boundary"
+      ]
+    },
+    "RCP-19": {
+      "status": "unknown",
+      "ledger": {
+        "31337:native": null,
+        "31337:0x3333333333333333333333333333333333333333": "37"
+      },
+      "gaps": [
+        "missing_trace_parent"
+      ],
+      "support": {
+        "31337:native": [
+          "RCP-19:receipt",
+          "RCP-19:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-19:receipt",
+          "RCP-19:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-19:receipt",
+        "RCP-19:boundary"
+      ]
+    },
+    "RCP-20": {
+      "status": "unknown",
+      "ledger": {
+        "31337:native": null,
+        "31337:0x3333333333333333333333333333333333333333": null
+      },
+      "gaps": [
+        "log_identity"
+      ],
+      "support": {
+        "31337:native": [
+          "RCP-20:receipt",
+          "RCP-20:boundary"
+        ],
+        "31337:0x3333333333333333333333333333333333333333": [
+          "RCP-20:receipt",
+          "RCP-20:boundary"
+        ]
+      },
+      "required_sources": [
+        "RCP-20:receipt",
+        "RCP-20:boundary"
+      ]
+    }
+  }
+}
