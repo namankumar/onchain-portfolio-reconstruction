@@ -1,0 +1,72 @@
+{
+  "review_scope": "Source-authentic candidate only; no original module execution, no live provider access, and no private investigation records copied.",
+  "sources": [
+    {
+      "source_id": "SRC-SOL-IDL-001",
+      "sha256": "c3f13e7bffcd81eac22f073335a6f04fd712d943a8b5e1cfdd3ab5e1c4039662",
+      "candidate": "src/solana_idl_decode.py",
+      "candidate_sha256": "c3f13e7bffcd81eac22f073335a6f04fd712d943a8b5e1cfdd3ab5e1c4039662",
+      "kind": "byte-identical",
+      "private_data_removed": []
+    },
+    {
+      "source_id": "SRC-EVM-DISPATCH-001",
+      "sha256": "3911f7587cc0c92761f8c420077ddf6a29acec138d53de6dba67b4f7e173de0d",
+      "candidate": "src/evm_dispatcher.py",
+      "candidate_sha256": "e9311e201620ff88f2e95eca53f24d4e090a40a449d9c1f78de14d9bdf75a227",
+      "kind": "minimal-redaction extraction",
+      "source_regions": [
+        "push",
+        "runtime"
+      ],
+      "transformations": [
+        "Replace private imported owner global A with required owner argument.",
+        "Rename runtime to build_runtime.",
+        "Omit operation and simulate because they depend on private RPC/cache helpers and execute provider calls."
+      ],
+      "private_data_removed": [
+        "imported owner identity",
+        "hard-coded RPC endpoint",
+        "RPC/cache interaction"
+      ]
+    },
+    {
+      "source_id": "SRC-EVM-NONCE-001",
+      "sha256": "f3af1f93840521b8c6732a056a34b3e0497c1a7702341faf17b470b9c976b5d1",
+      "candidate": "src/nonce_recovery.py",
+      "candidate_sha256": "b6c0b517c3ae042628e72c3d61a540a1f2bb9903af2a50afa5c9abd170c74ab4",
+      "kind": "source-derived parameterization",
+      "source_regions": [
+        "queue setup",
+        "worker",
+        "thread launch/join",
+        "sorted result"
+      ],
+      "transformations": [
+        "Replace fixed private owner, URL, block/nonce bounds and runtime limits with function arguments.",
+        "Inject the read-only RPC callable instead of importing read_contracts.rpc.",
+        "Return results instead of writing a cache packet or printing progress.",
+        "Generalize chain-specific source comment; algorithm unchanged."
+      ],
+      "private_data_removed": [
+        "owner address",
+        "endpoint",
+        "fixed historical bounds",
+        "expected nonce",
+        "cache/output name"
+      ]
+    },
+    {
+      "source_id": "SRC-EVM-NONCE-002",
+      "sha256": "16bab9f4f87942bbb6e778ec62a5345690ee15c95b86b5448854a47ec0f6df2f",
+      "candidate": "src/nonce_recovery.py",
+      "kind": "corroborating implementation",
+      "note": "Same queue/bisection architecture with different historical parameters. Not copied separately.",
+      "candidate_sha256": "b6c0b517c3ae042628e72c3d61a540a1f2bb9903af2a50afa5c9abd170c74ab4",
+      "private_data_removed": [],
+      "transformations": [
+        "Generalize chain-specific source comment; algorithm unchanged."
+      ]
+    }
+  ]
+}

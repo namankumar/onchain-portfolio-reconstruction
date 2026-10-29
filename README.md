@@ -2,7 +2,25 @@
 
 Reconstruct supplied onchain movements, show which balances reconcile, and make unresolved evidence explicit.
 
-This package extracts a small, runnable core from a **258-script, 17,599-line** research codebase spanning EVM and non-EVM systems. It documents the engineering surface through an [opaque scope manifest](docs/source-catalog.md), not a claim that every original script is portable or that every chain is covered by the CLI.
+This repository contains original components from a **258-script, 17,599-line** reconstruction project spanning EVM and non-EVM systems, plus a portable CLI built around its accounting and recovery rules. It documents the engineering surface through an [opaque scope manifest](docs/source-catalog.md), not a claim that every original script is portable or that every chain is covered by the CLI.
+
+## Original implementation
+
+Start with [the actual reconstruction components](actual-source/README.md):
+
+- **Solana IDL decoder:** byte-identical original code for program-account layouts and discriminator checks.
+- **EVM dispatcher:** the original sequential-call bytecode builder, with owner configuration separated from the algorithm.
+- **Transaction-history recovery:** the original concurrent nonce-bisection algorithm, parameterized for caller-supplied bounds and an RPC reader.
+
+[Source provenance and transformations](actual-source/AUTHENTICITY.md) distinguish original code from the newer generalized decoder, ledger and CLI. Private wallet records and investigation outputs are excluded. The public repository is a reviewed extraction, not the complete private investigation.
+
+Run the original component tests offline:
+
+```sh
+cd actual-source
+python3.12 -m unittest discover -s tests -v
+cd ..
+```
 
 ## Run it in two minutes
 
