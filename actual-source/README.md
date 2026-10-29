@@ -18,7 +18,7 @@ The opaque source IDs, hashes and exact transformations are recorded in `provena
 - Every wallet address, transaction hash, balance, token quantity, label, timestamp, report result, screenshot, raw response, cache path and local filesystem path.
 - Seed-phrase/derivation modules and all authenticated or signing code.
 - Hard-coded RPC endpoints, calls at import time, report orchestration and personal cache I/O.
-- Any claim that these modules have been live-run since extraction. They were source-reviewed and verified with the included offline component tests.
+- Any claim that these modules have been live-run since extraction. Offline synthetic contracts are exercised by tools/verify_offline.py in the repository root; no live-provider or recovery result is claimed.
 
 ## Review checks
 
@@ -33,4 +33,8 @@ print(hashlib.sha256(path.read_bytes()).hexdigest())
 PY
 ```
 
-The final command should emit the byte-identical original hash recorded in `provenance.json`. No network, wallet, signing or transaction operation is involved.
+The second command should emit the byte-identical original hash recorded in `provenance.json`. No network, wallet, signing or transaction operation is involved.
+
+## Promotion rule
+
+Promote a candidate only after an independent public-source/privacy review confirms that the code and metadata contain no personal facts and the public package documents its provenance truthfully. The original investigation remains private.
