@@ -1,28 +1,10 @@
 # Onchain Portfolio Reconstruction
 
-Reconstruct supplied onchain movements, show which balances reconcile, and make unresolved evidence explicit.
+A transaction history can look complete and still leave the balance unexplained. I built this code to reconstruct the movements, account for fees and failed calls, and show exactly where the numbers stop matching.
 
-This repository contains original components from a **258-script, 17,599-line** reconstruction project spanning EVM and non-EVM systems, plus a portable CLI built around its accounting and recovery rules. It documents the engineering surface through an [opaque scope manifest](docs/source-catalog.md), not a claim that every original script is portable or that every chain is covered by the CLI.
+Start with the offline examples below. They use fictional data and don't need a wallet, account or API key. The repo also includes selected Solana and EVM components from the original investigation; the public CLI doesn't cover every chain or replace a full investigation.
 
-## Original implementation
-
-Start with [the actual reconstruction components](actual-source/README.md):
-
-- **Solana IDL decoder:** byte-identical original code for program-account layouts and discriminator checks.
-- **EVM dispatcher:** the original sequential-call bytecode builder, with owner configuration separated from the algorithm.
-- **Transaction-history recovery:** the original concurrent nonce-bisection algorithm, parameterized for caller-supplied bounds and an RPC reader.
-
-[Source provenance and transformations](actual-source/AUTHENTICITY.md) distinguish original code from the newer generalized decoder, ledger and CLI. Private wallet records and investigation outputs are excluded. The public repository is a reviewed extraction, not the complete private investigation.
-
-Run the original component tests offline:
-
-```sh
-cd actual-source
-python3.12 -m unittest discover -s tests -v
-cd ..
-```
-
-## Run it in two minutes
+## Try the offline examples
 
 Requires Python **3.11 or newer**. The core and tests use only the standard library. Tested with Python 3.12. You do not need API keys, a wallet, financial exports, a model, Docker or dependencies for these examples.
 
@@ -44,11 +26,29 @@ The ledger example uses **fictional movements**. It returns `complete: true`, `r
 
 For your own data, follow [input schemas and examples](docs/running.md). Exit status **0** means the requested command succeeded; reconciliation specifically requires complete supplied inputs and a zero difference. Exit status **2** means invalid/missing input, incomplete reconciliation, a discrepancy, or an RPC failure. Inspect the JSON and stderr rather than interpreting any error as a zero balance.
 
+## Original implementation
+
+Start with [the actual reconstruction components](actual-source/README.md):
+
+- **Solana IDL decoder:** byte-identical original code for program-account layouts and discriminator checks.
+- **EVM dispatcher:** the original sequential-call bytecode builder, with owner configuration separated from the algorithm.
+- **Transaction-history recovery:** the original concurrent nonce-bisection algorithm, parameterized for caller-supplied bounds and an RPC reader.
+
+[Source provenance and transformations](actual-source/AUTHENTICITY.md) distinguish original code from the newer generalized decoder, ledger and CLI. Private wallet records and investigation outputs are excluded. The public repository is a reviewed extraction, not the complete private investigation.
+
+Run the original component tests offline:
+
+```sh
+cd actual-source
+python3.12 -m unittest discover -s tests -v
+cd ..
+```
+
 ## Evaluation scorecard
 
 Run `python3 tools/verify_offline.py` and `python3 -m evals.compare --trials 3 --out output/comparison` from this directory. The [evaluation guide](evals/README.md) contains the architecture, task protocol, exact raw-unit graders and reproducible evidence. The [committed comparison](evals/results/comparison.md) reports **14/20 task-oracle successes for both existing revisions**, with three deterministic trials per case and six retained failures. Their accounting source is byte-identical; no gain or product fix is claimed.
 
-**Model comparison: not run. Operational recovery impact: not measured.** The model-led JSONL tool interface is ready, but this offline software score is not an LLM success rate. Original-source components remain a separate narrow extraction; no complete original-investigation claim is made.
+These are software checks, not an LLM success rate. Model comparisons and real-world recovery impact have not been measured. The public export contains selected original components, not the full investigation.
 
 ## Engineering scope
 
