@@ -1,8 +1,8 @@
-# Original Reconstruction Components
+# Original reconstruction components
 
-These are original algorithms extracted from the reconstruction project, alongside the separately packaged CLI in the repository root. Private wallet records, addresses, transactions, balances, labels, raw responses, caches and research narratives are excluded.
+This folder holds three pieces of the original reconstruction code. The CLI in the repository root is packaged separately. Private wallet data and the original investigation are not included.
 
-It contains three narrow, source-traceable components:
+Each component has a different extraction history:
 
 | Candidate | Authenticity | Source component | Why it is safe to evaluate |
 | --- | --- | --- | --- |
@@ -13,14 +13,16 @@ It contains three narrow, source-traceable components:
 The opaque source IDs, hashes and exact transformations are recorded in `provenance.json` and [AUTHENTICITY.md](AUTHENTICITY.md). A private ignored filename map exists for internal review; public exports must exclude `private-review/`.
 
 
-## What is deliberately excluded
+## What is not included
 
 - Every wallet address, transaction hash, balance, token quantity, label, timestamp, report result, screenshot, raw response, cache path and local filesystem path.
 - Seed-phrase/derivation modules and all authenticated or signing code.
 - Hard-coded RPC endpoints, calls at import time, report orchestration and personal cache I/O.
 - Any claim that these modules have been live-run since extraction. Offline synthetic contracts are exercised by tools/verify_offline.py in the repository root; no live-provider or recovery result is claimed.
 
-## Review checks
+## Check the extracted code
+
+Run these commands from `actual-source/`:
 
 ```sh
 python3.12 -m py_compile src/*.py
@@ -33,7 +35,7 @@ print(hashlib.sha256(path.read_bytes()).hexdigest())
 PY
 ```
 
-The second command should emit the byte-identical original hash recorded in `provenance.json`. No network, wallet, signing or transaction operation is involved.
+The final Python snippet prints the hash to compare with `provenance.json`. No network, wallet, signing or transaction operation is involved.
 
 ## Promotion rule
 

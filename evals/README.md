@@ -1,6 +1,6 @@
 # Reconstruction investigation evaluations
 
-Evaluate the real, existing receipt decoder and exact-integer ledger through bounded evidence tasks. A model can choose which local tools to call and explain a structured final report. The runtime never exposes grader expectations or calls a provider. **No model trials have been run.**
+These tasks check whether the receipt decoder and integer ledger can support a balance claim, or explain why the evidence is insufficient. A model could choose local tools and produce a structured report through this interface, but **no model trials have been run**. The runtime does not call a provider or expose the grader's expected answers.
 
 ## Quickstart
 
@@ -15,7 +15,7 @@ The first command blocks network entry points and runs product tests, grader cal
 
 [Committed comparison](results/comparison.md) · [Full scorecard and tool episodes](results/scorecard.json) · [Retained findings and proposed experiments](FINDINGS.md) · [Existing revision bindings](versions.json).
 
-## System boundary
+## What is being evaluated
 
 ```mermaid
 flowchart LR
@@ -36,7 +36,7 @@ flowchart LR
 
 The receipt/accounting commands are the generalized portable package already published at d084374/a81ed25. The separately published [original-source components](../actual-source/README.md) retain their own hashes and tests: byte-identical IDL decode, parameterized historical nonce recovery and minimally redacted preview bytecode. Their three-component scope is **not** the complete original investigation. This evaluation adds bounded receipt-to-ledger tasks; it does not make every original chain/protocol adapter portable. Authenticated sources, private datasets, provider-specific orchestration, secret handling and original report pipelines remain excluded.
 
-## Model-led protocol
+## Investigation interface
 
 Start one fresh process per task:
 
@@ -81,7 +81,7 @@ python3 -m evals.grade_episode --episode output/manual-episode.json
 
 The grader checks task/fixture/revision identity, replays tool receipts against fresh local state, compares exact computed integers and explicit gaps, and verifies structured claims/citations. It does **not** authenticate a model identity/provider receipt or semantically prove free-prose explanations. The CLI therefore excludes manual transcripts from automated model-comparison metrics. Human explanation review and verified provider/model/prompt/cost receipts are still required before a model-quality claim.
 
-## Scorecard semantics
+## How to read the scorecard
 
 - **Software probes:** a fixed disclosed decode-all-then-reconcile policy, actual existing versions, identical reset inputs, three trials/case,20 cases, fixture/oracle/code/prompt/tool hashes, validity, task success, errors, forbidden attempts and local duration. Repeated deterministic trials are reset checks, not statistical evidence about stochastic models.
 - **Model-task outcomes:** not-reached, zero trials. Planned cases20; model/prompt/provider configuration, valid-run rate, success, latency, token usage and cost remain null/unrun. Do not relabel the software70% as model performance.
@@ -102,6 +102,6 @@ All addresses, hashes, timestamps, quantities and provider messages are fictiona
 | RCP-12–16 | ERC721 separation, >2^53 integers, unknown observation, source injection, duplicate traces |
 | RCP-17–20 | Held-out self-transfer, creation/refund, missing trace parent, wrong log identity |
 
-## Publication boundary
+## What stays private
 
 Only reviewed source, synthetic tasks, deterministic test receipts, original-source provenance and documentation are exported. Private source maps/plans, logs, account caches, local paths, credentials and original investigation data stay out. No new license or ownership claim is introduced. Product improvements and experimental behavior changes are on hold pending maintainer authorization; this harness measures existing behavior and preserves its failures.
